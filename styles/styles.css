@@ -1,0 +1,83 @@
+.background{
+    background-color: #263C28;
+    color: white;
+}
+
+.all-info {
+    text-align: center;
+    max-width: 1440px;
+    margin: auto;
+    padding: 139px 0 160px;
+
+}
+
+.subtitle{
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.title{
+    font-weight: 700;
+    font-size: 50px;
+    margin-bottom: 100px;
+}
+
+.link{
+    text-decoration: none;
+}
+
+.link:focus{
+    border: 1px solid rgb(197, 141, 33);
+    border-radius: 10px;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 56px;
+}
+
+.card{
+    padding: 264px 25px 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    transition: transform 0.3s ease-in-out 0s;
+}
+
+.subname{
+    color: rgb(247, 195, 95);
+    font-weight: 400;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.name{
+    color: white;
+    max-width: 133px;
+    font-weight: 600;
+    font-size: 18px;
+
+}
+
+.card-1{
+    background: url('../pictures/image18.jpeg') center / cover no-repeat;
+}
+
+.card:hover{
+    transform: translateY(-25px);
+}
+
+.card-2{
+    background: url('../pictures/image11.jpeg') center / cover no-repeat;
+}
+
+.card-3{
+    background: url('../pictures/image13.jpeg') center / cover no-repeat;
+}
+
+.card-4{
+    background: url('../pictures/image12.jpeg') center / cover no-repeat;
+}
